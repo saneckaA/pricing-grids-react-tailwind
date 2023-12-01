@@ -15,7 +15,7 @@ const Cards = () => {
         {title: 'Premium', capacity: '2TB', price: '$8.99/Month', benefit1: '2TB storage', benefit2: 'Option to add members', benefit3: 'Extra member benefits'},
     ];
     return (
-        <div className='flex flex-col my-6 space-y-6 md:flex-row md:space-y-0 md:space-x-6 md:my-0'>
+        <div className='flex flex-col my-6 space-y-10 md:flex-row md:space-y-0 md:space-x-6 md:my-0'>
             {cardsData.map((card, index) => (
                 <Card 
                 key={index}
