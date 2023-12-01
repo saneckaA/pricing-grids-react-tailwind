@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Card({ title, capacity, price, benefit1, benefit2, benefit3 }) {
+const Card = ({ title, capacity, price, benefit1, benefit2, benefit3, borderColor, onClick }) => {
     return (
-        <div className='bg-slate-700 rounded-xl text-white'>
+        <div className={`bg-slate-700 rounded-xl text-white cursor-pointer ${borderColor} `} onClick={onClick}>
             <div className='flex flex-col items-center p-10 mx-3 mt-3 rounded-t-xl bg-slate-800 border-b border-slate-700'>
                 <div className='uppercase'>{title}</div>
                 <div className='text-5xl mt-10 font-serif'>{capacity}</div>
@@ -11,7 +11,6 @@ function Card({ title, capacity, price, benefit1, benefit2, benefit3 }) {
             </div>
             <div className='p-10 mx-3 mb-3 rounded-b-xl bg-slate-800'>
                 <div className='flex flex-col items-center'>
-
                     <div className='flex flex-row items-center gap-2'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
