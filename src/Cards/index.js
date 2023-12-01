@@ -25,7 +25,8 @@ const Cards = () => {
                 benefit1={card.benefit1}
                 benefit2={card.benefit2}
                 benefit3={card.benefit3}
-                borderColor={selectedCard === index ? 'bg-violet-800' : 'bg-slate-700'}
+                borderColor={selectedCard === index ? 'bg-fuchsia-700' : 'bg-slate-700'}
+                cardSize={selectedCard === index ? 'transform scale-110': ""}
                 onClick={() => handleCardClick(index)}
 
                 />
