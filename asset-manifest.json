@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pricing-grids-react-tailwind/static/css/main.86e70322.css",
+    "main.js": "/pricing-grids-react-tailwind/static/js/main.2a1c26f6.js",
+    "static/js/787.76d96af2.chunk.js": "/pricing-grids-react-tailwind/static/js/787.76d96af2.chunk.js",
+    "index.html": "/pricing-grids-react-tailwind/index.html",
+    "main.86e70322.css.map": "/pricing-grids-react-tailwind/static/css/main.86e70322.css.map",
+    "main.2a1c26f6.js.map": "/pricing-grids-react-tailwind/static/js/main.2a1c26f6.js.map",
+    "787.76d96af2.chunk.js.map": "/pricing-grids-react-tailwind/static/js/787.76d96af2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86e70322.css",
+    "static/js/main.2a1c26f6.js"
+  ]
+}
